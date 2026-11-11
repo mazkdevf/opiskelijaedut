@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Parallels Desktop Pro",
+  "provider": "Parallels",
+  "url": "https://www.parallels.com/landingpage/pd/education/",
+  "category": "productivity",
+  "type": "discount",
+  "value": {
+    "fi": "−50 %",
+    "en": "−50%"
+  },
+  "summary": {
+    "fi": "Windows Macissa puoleen hintaan: 50 % alennus Parallels Desktop Pro -versiosta.",
+    "en": "Windows on a Mac at half price: 50% off Parallels Desktop Pro."
+  },
+  "description": {
+    "fi": "Tästä on hyötyä, jos opinnoissa tarvitaan Windows-ohjelmia ja käytössä on Mac. Opiskelijastatus vahvistetaan kerran kassalla, ja alennus uusiutuu vuosittain niin kauan kuin ehdot täyttyvät.",
+    "en": "This helps if your course needs Windows software and you have a Mac. You verify once at checkout, and the discount renews every year for as long as you remain eligible."
+  },
+  "perks": [
+    {
+      "fi": "50 % alennus Parallels Desktop Pro Edition -tilauksesta",
+      "en": "50% off Parallels Desktop Pro Edition"
+    },
+    {
+      "fi": "Alennus lisätään automaattisesti kassalla, ei kuponkikoodia",
+      "en": "The discount is applied automatically at checkout, with no coupon code"
+    }
+  ],
+  "eligibility": {
+    "fi": "Akkreditoitujen korkeakoulujen nykyiset ja juuri hyväksytyt opiskelijat.",
+    "en": "Current and newly accepted students at accredited colleges and universities."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Parallelsin Education-sivu ja siirry kassalle.",
+      "en": "Open Parallels' Education page and go to checkout."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi opiskelijakortilla. Vahvistus vie alle viisi minuuttia.",
+      "en": "Verify your status with your student ID. It takes under five minutes."
+    }
+  ],
+  "verification": ["document"],
+  "lastVerified": "2026-11-11"
+}

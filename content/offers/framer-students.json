@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Framer for Students",
+  "provider": "Framer",
+  "url": "https://www.framer.com/students/",
+  "category": "design",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Framerin Basic-sivustopaketti vuodeksi maksutta portfoliota tai omaa sivua varten.",
+    "en": "Framer's Basic site plan free for a year, for a portfolio or personal site."
+  },
+  "description": {
+    "fi": "Opiskelija saa alennuskoodin, jolla Basic-paketti on vuoden ilmainen. Koodin voi hakea uudelleen 11 kuukauden välein niin kauan kuin opiskelee. Koodi on tarkoitettu vain omaan opiskelijasivustoon, ja sen voi tällä hetkellä lunastaa vain uusi asiakas.",
+    "en": "Students get a discount code that makes the Basic plan free for a year. You can re-apply every 11 months for as long as you study. The code is for your own student site only, and can currently only be redeemed by new customers."
+  },
+  "perks": [
+    {
+      "fi": "Basic-sivustopaketti (arvo 120 $/vuosi)",
+      "en": "The Basic site plan (worth $120 a year)"
+    },
+    {
+      "fi": "Design Canvas, CMS ja valmiit pohjat",
+      "en": "The Design Canvas, CMS and templates"
+    },
+    {
+      "fi": "1 000 tekoälykrediittiä kuukaudessa",
+      "en": "1,000 AI credits a month"
+    }
+  ],
+  "eligibility": {
+    "fi": "Lukiossa, korkeakoulussa tai muussa sertifioidussa koulutusohjelmassa opiskelevat.",
+    "en": "People enrolled in a certified programme, such as an upper secondary school, college or university."
+  },
+  "steps": [
+    {
+      "fi": "Täytä hakemus Framerin opiskelijasivulla: nimi, oppilaitos, oppilaitoksen sähköposti ja valmistumisaika.",
+      "en": "Fill in the application on Framer's student page: name, school, school email and graduation date."
+    },
+    {
+      "fi": "Liitä kuva opiskelijakortista, jossa näkyy nimesi ja oppilaitoksen logo.",
+      "en": "Attach a photo of your student ID showing your name and the school logo."
+    },
+    {
+      "fi": "Framer käsittelee hakemuksen noin viidessä arkipäivässä.",
+      "en": "Framer reviews applications within about five working days."
+    }
+  ],
+  "verification": ["school-email", "document"],
+  "lastVerified": "2026-11-11"
+}

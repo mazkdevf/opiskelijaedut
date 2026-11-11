@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "C&C:n opiskelijahinnat",
+  "provider": "C&C",
+  "url": "https://cec.fi/opiskelijat",
+  "category": "shopping",
+  "type": "discount",
+  "value": {
+    "fi": "Jopa −500 €",
+    "en": "Up to −€500"
+  },
+  "summary": {
+    "fi": "Opiskelijahinnat Maceihin, iPadeihin ja Applen lisävarusteisiin myymälöissä ja verkkokaupassa.",
+    "en": "Student prices on Macs, iPads and Apple accessories in store and online."
+  },
+  "description": {
+    "fi": "C&C myy Applen laitteita opiskelijahinnoin. Säästö on MacBook Airissa jopa 270 € ja MacBook Prossa jopa 500 €. Yhden lukuvuoden aikana voi ostaa yhden kannettavan Macin, ja opiskelijastatus on uusittava vuosittain 30.6. jälkeen.",
+    "en": "C&C sells Apple devices at student prices. You save up to €270 on a MacBook Air and up to €500 on a MacBook Pro. You can buy one Mac laptop per school year, and student status has to be renewed after 30 June each year."
+  },
+  "perks": [
+    {
+      "fi": "MacBook Air: säästö jopa 270 €",
+      "en": "MacBook Air: save up to €270"
+    },
+    {
+      "fi": "MacBook Pro: säästö jopa 500 €",
+      "en": "MacBook Pro: save up to €500"
+    },
+    {
+      "fi": "Opiskelijahinnat myös iPadeihin ja lisävarusteisiin",
+      "en": "Student prices on iPads and accessories too"
+    }
+  ],
+  "eligibility": {
+    "fi": "Täysi-ikäiset lukio-, ammattikoulu-, AMK- ja yliopisto-opiskelijat sekä alaikäisen opiskelijan huoltajat. Ei koske avoimen yliopiston tai täydennyskoulutuksen opiskelijoita.",
+    "en": "Adult students at upper secondary, vocational, university of applied sciences and university level, and guardians of under-age students. Open university and continuing education students are not covered."
+  },
+  "steps": [
+    {
+      "fi": "Rekisteröidy opiskelijaksi C&C:n verkkokaupassa ja lataa todistus, tai asioi myymälässä.",
+      "en": "Register as a student in C&C's online store and upload proof, or visit a store."
+    },
+    {
+      "fi": "Todisteeksi käy voimassa oleva opiskelijakortti (myös digitaalinen), opiskelutodistus tai hyväksymiskirje.",
+      "en": "A valid student card (digital is fine), a certificate of enrolment or an acceptance letter works as proof."
+    }
+  ],
+  "verification": ["student-card", "document"],
+  "lastVerified": "2026-11-11"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Craft for Education",
+  "provider": "Craft",
+  "url": "https://www.craft.do/education",
+  "category": "productivity",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Craft-muistiinpanosovelluksen maksullinen taso maksutta oppilaitoksen sähköpostilla.",
+    "en": "The paid tier of the Craft notes app, free with a school email."
+  },
+  "description": {
+    "fi": "Craft on muistiinpanojen ja dokumenttien kirjoittamiseen tehty sovellus. Opiskelijapaketti on voimassa 12 kuukautta kerrallaan, ja sen voi uusia rajattomasti vahvistamalla opiskelijastatuksen uudelleen.",
+    "en": "Craft is an app for writing notes and documents. The student plan is valid for 12 months at a time and can be renewed indefinitely by re-verifying your status."
+  },
+  "perks": [
+    {
+      "fi": "Rajattomasti dokumentteja",
+      "en": "Unlimited docs"
+    },
+    {
+      "fi": "Jopa 250 Gt tallennustilaa",
+      "en": "Up to 250 GB of storage"
+    },
+    {
+      "fi": "Salasanasuojattu julkaisu ja rajattomat PDF-viennit",
+      "en": "Password-protected publishing and unlimited PDF exports"
+    }
+  ],
+  "eligibility": {
+    "fi": "Oppilaitoksessa kirjoilla olevat opiskelijat sekä henkilökunta.",
+    "en": "Students currently enrolled at an academic institution, and its staff."
+  },
+  "steps": [
+    {
+      "fi": "Rekisteröidy Craftiin oppilaitoksen sähköpostiosoitteella.",
+      "en": "Sign up for Craft with your school email address."
+    },
+    {
+      "fi": "Aktivoi paketti sähköpostiin tulevasta painikkeesta.",
+      "en": "Activate the plan from the button in the email you receive."
+    }
+  ],
+  "verification": ["school-email"],
+  "lastVerified": "2026-11-11"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Kuntoykkönen",
+  "provider": "Kuntoykkönen",
+  "url": "https://kuntoykkonen.fi/s/kuntosali-opiskelija-oulu/",
+  "category": "wellbeing",
+  "type": "discount",
+  "region": {
+    "fi": "Oulu",
+    "en": "Oulu"
+  },
+  "value": {
+    "fi": "Alk. 19,90 €/kk",
+    "en": "From €19.90/mo"
+  },
+  "summary": {
+    "fi": "Kuntosali opiskelijalle alkaen 19,90 €/kk ilman vuosisopimusta.",
+    "en": "A gym for students from €19.90 a month, with no annual contract."
+  },
+  "description": {
+    "fi": "Perus-kortti (käytössä klo 5.30 ja 24 välillä) maksaa opiskelijalle 19,90 €/kk, 24/7-käyttöön oikeuttava Plus 28,90 €/kk ja VIP 33,90 €/kk. Kertaluonteinen avausmaksu on 10 € ja kulkutunniste 9 €. Irtisanomisaika on yksi kuukausi.",
+    "en": "The Perus card (open from 5.30 to midnight) costs students €19.90 a month, the 24/7 Plus card €28.90 and VIP €33.90. There is a one-off opening fee of €10 and a €9 access tag. The notice period is one month."
+  },
+  "perks": [
+    {
+      "fi": "Perus 19,90 €/kk, Plus 28,90 €/kk, VIP 33,90 €/kk",
+      "en": "Perus €19.90, Plus €28.90, VIP €33.90 a month"
+    },
+    {
+      "fi": "Maksuton tekniikkaopastus ja henkilökohtainen saliohjelma",
+      "en": "Free technique guidance and a personal training programme"
+    },
+    {
+      "fi": "Ei vuosisopimusta",
+      "en": "No annual contract"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti tai opiskelutodistus.",
+    "en": "Students with a valid student card or certificate of enrolment."
+  },
+  "steps": [
+    {
+      "fi": "Näytä opiskelijakortti tai opiskelutodistus toimistolla (Kansankatu 47, Oulu) maanantaista torstaihin klo 12 ja 18 välillä.",
+      "en": "Show your student card or certificate at the office (Kansankatu 47, Oulu), Monday to Thursday between 12 and 18."
+    }
+  ],
+  "verification": ["student-card", "document"],
+  "lastVerified": "2026-11-11"
+}

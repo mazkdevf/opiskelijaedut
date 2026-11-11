@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Figma for Education",
+  "provider": "Figma",
+  "url": "https://www.figma.com/education/",
+  "category": "design",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Figman ja FigJamin Professional-taso maksutta opiskelijoille.",
+    "en": "The Professional tier of Figma and FigJam, free for students."
+  },
+  "description": {
+    "fi": "Vahvistettu opiskelija saa Figman ja FigJamin maksullisen Professional-tason käyttöönsä. Mukana ovat myös tekoälytyökalut, kuten Figma Make.",
+    "en": "Verified students get the paid Professional tier of Figma and FigJam. The AI toolkit, including Figma Make, is part of it."
+  },
+  "perks": [
+    {
+      "fi": "Figma ja FigJam Professional-tasolla",
+      "en": "Figma and FigJam at the Professional tier"
+    },
+    {
+      "fi": "Tekoälytyökalut, mukaan lukien Figma Make",
+      "en": "AI tools, including Figma Make"
+    },
+    {
+      "fi": "Oma Education-tiimi projekteille",
+      "en": "An Education team of your own for projects"
+    }
+  ],
+  "eligibility": {
+    "fi": "Yli 13-vuotiaat opiskelijat lukiossa, korkeakoulussa, ammatillisessa koulutuksessa tai verkkokurssilla.",
+    "en": "Students over 13 in upper secondary school, university, vocational training or an online course."
+  },
+  "steps": [
+    {
+      "fi": "Avaa figma.com/education/apply.",
+      "en": "Go to figma.com/education/apply."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi.",
+      "en": "Verify your education status."
+    },
+    {
+      "fi": "Luo Education-tiimi ja siirrä tiedostosi sinne.",
+      "en": "Create an Education team and move your files into it."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

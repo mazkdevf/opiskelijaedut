@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Silmäasema",
+  "provider": "Silmäasema",
+  "url": "https://www.silmaasema.fi/silmaaseman-edut-asiakkaalle.html",
+  "category": "wellbeing",
+  "type": "discount",
+  "value": {
+    "fi": "−50 %",
+    "en": "−50%"
+  },
+  "summary": {
+    "fi": "Silmälasit puoleen hintaan ja optikon näöntutkimus 0 € lasien ostajalle.",
+    "en": "Glasses at half price and a free optician's eye exam when you buy them."
+  },
+  "description": {
+    "fi": "Opiskelija saa kaikki silmälasit 50 % alennuksella, ja silmälasien ostajalle optikon näöntutkimus on maksuton (normaalisti 35 €). Etua ei voi yhdistää muihin tarjouksiin, eikä se ole voimassa Silmäaseman design-liikkeissä.",
+    "en": "Students get 50% off all glasses, and the optician's eye exam is free (normally €35) when you buy glasses. The offer cannot be combined with others and is not valid at Silmäasema design stores."
+  },
+  "perks": [
+    {
+      "fi": "50 % alennus kaikista silmälaseista",
+      "en": "50% off all glasses"
+    },
+    {
+      "fi": "Optikon näöntutkimus 0 € silmälasien ostajalle (norm. 35 €)",
+      "en": "Free optician's eye exam when buying glasses (normally €35)"
+    },
+    {
+      "fi": "10 % alennus piilolinsseistä ja piilolinssinesteistä",
+      "en": "10% off contact lenses and lens solutions"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti. Ei koske älylaseja.",
+    "en": "Students with a valid student card. Smart glasses are excluded."
+  },
+  "steps": [
+    {
+      "fi": "Näytä voimassa oleva opiskelijakortti Silmäaseman liikkeessä.",
+      "en": "Show a valid student card at a Silmäasema store."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

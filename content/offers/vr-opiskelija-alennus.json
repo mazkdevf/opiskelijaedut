@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "VR:n opiskelija-alennus",
+  "provider": "VR",
+  "url": "https://www.vr.fi/opiskelijat",
+  "category": "transport",
+  "type": "discount",
+  "value": {
+    "fi": "−30 %",
+    "en": "−30%"
+  },
+  "summary": {
+    "fi": "Kaukojunien liput 30 % ja VR:n lähijunien liput 50 % halvemmalla.",
+    "en": "30% off long-distance trains and 50% off VR commuter trains."
+  },
+  "description": {
+    "fi": "Alennus koskee kerta- ja sarjalippuja. Valituilla, Lisä-%-merkinnällä merkityillä vuoroilla kaukoliikenteen alennus on jopa 40 %. Yöjunan hyteistä ei saa alennusta.",
+    "en": "The discount applies to single and multi-journey tickets. On selected departures, marked with an extra-% label, the long-distance discount is up to 40%. Sleeper cabins are not discounted."
+  },
+  "perks": [
+    {
+      "fi": "Kaukoliikenne: 30 % alennus, valituilla vuoroilla jopa 40 %",
+      "en": "Long-distance: 30% off, up to 40% on selected departures"
+    },
+    {
+      "fi": "VR:n lähiliikenne: 50 % alennus",
+      "en": "VR commuter trains: 50% off"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva, alennukseen oikeuttava opiskelijakortti. Kortti on näytettävä lipuntarkastuksessa.",
+    "en": "Students with a valid student card that entitles them to the discount. You must show the card when tickets are checked."
+  },
+  "steps": [
+    {
+      "fi": "Valitse lippua ostaessasi matkustajaksi opiskelija.",
+      "en": "Choose student as the passenger type when buying a ticket."
+    },
+    {
+      "fi": "Pidä opiskelijakortti mukana junassa.",
+      "en": "Carry your student card on the train."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

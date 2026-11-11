@@ -1,0 +1,62 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Ideapark Oulun opiskelijaedut",
+  "provider": "Ideapark",
+  "url": "https://oulu.ideapark.fi/ajankohtaista/opiskelijaedut/",
+  "category": "shopping",
+  "type": "discount",
+  "region": {
+    "fi": "Oulu",
+    "en": "Oulu"
+  },
+  "value": {
+    "fi": "Jopa −20 %",
+    "en": "Up to −20%"
+  },
+  "summary": {
+    "fi": "Alennuksia Ideaparkin kahviloissa, ravintoloissa ja liikkeissä opiskelijakortilla.",
+    "en": "Discounts at Ideapark's cafés, restaurants and shops with a student card."
+  },
+  "description": {
+    "fi": "Ideapark on koonnut liikkeidensä opiskelijaedut yhdelle sivulle. Mukana ovat myös Finlayson, Jungle Juice Bar, Zizzi, Perusterveys ja optikkoliikkeet. Lista on julkaistu 29.8.2025, joten varmista etu liikkeestä.",
+    "en": "Ideapark has gathered its tenants' student offers on one page. Finlayson, Jungle Juice Bar, Zizzi, Perusterveys and the opticians take part as well. The list was published on 29 August 2025, so confirm the offer in store."
+  },
+  "perks": [
+    {
+      "fi": "Espresso House: −10 % kaikista tuotteista",
+      "en": "Espresso House: 10% off everything"
+    },
+    {
+      "fi": "Rax: −10 % buffetateriasta ja jälkiruokabuffetista",
+      "en": "Rax: 10% off the buffet and dessert buffet"
+    },
+    {
+      "fi": "Subway: −10 % normaalihintaisista tuotteista",
+      "en": "Subway: 10% off regular-price items"
+    },
+    {
+      "fi": "Kultajousi: −20 % normaalihintaisista tuotteista",
+      "en": "Kultajousi: 20% off regular-price items"
+    },
+    {
+      "fi": "Timanttiset: −20 % normaalihintaisista, −15 % Pandora-tuotteista",
+      "en": "Timanttiset: 20% off regular-price items, 15% off Pandora"
+    },
+    {
+      "fi": "Ritaharjun apteekki: −10 % normaalihintaisista tuotteista, ei lääkkeistä",
+      "en": "Ritaharju pharmacy: 10% off regular-price items, excluding medicines"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti.",
+    "en": "Students with a valid student card."
+  },
+  "steps": [
+    {
+      "fi": "Näytä voimassa oleva opiskelijakortti kassalla.",
+      "en": "Show a valid student card at the till."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

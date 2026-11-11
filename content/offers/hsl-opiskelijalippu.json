@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "HSL:n opiskelijalippu",
+  "provider": "HSL",
+  "url": "https://www.hsl.fi/liput-ja-hinnat/alennusliput/opiskelijat",
+  "category": "transport",
+  "type": "discount",
+  "value": {
+    "fi": "−40 %",
+    "en": "−40%"
+  },
+  "summary": {
+    "fi": "HSL-alueen kausiliput 40 prosentin alennuksella päätoimisille opiskelijoille.",
+    "en": "Season tickets in the HSL area at 40 per cent off for full-time students."
+  },
+  "description": {
+    "fi": "Jos asut HSL-alueella vakituisesti ja olet päätoiminen opiskelija, voit ostaa kausilippuja 40 prosentin alennuksella. Kerta-, vuorokausi- ja sarjalipuista ei saa opiskelija-alennusta.",
+    "en": "If you live permanently in the HSL area and study full-time, you can buy season tickets at a 40 per cent discount. There is no student discount on single, day or multi-journey tickets."
+  },
+  "perks": [
+    {
+      "fi": "40 % alennus kausilipuista",
+      "en": "40% off season tickets"
+    },
+    {
+      "fi": "Opiskeluoikeuden tarkistus sähköisesti HSL-sovelluksessa",
+      "en": "Your right to study is checked electronically in the HSL app"
+    }
+  ],
+  "eligibility": {
+    "fi": "Päätoimiset opiskelijat, jotka asuvat vakituisesti HSL-alueella. Tarkat ikä- ja opiskelumuotoehdot löytyvät HSL:n sivulta.",
+    "en": "Full-time students who live permanently in the HSL area. The exact age and study requirements are on HSL's page."
+  },
+  "steps": [
+    {
+      "fi": "Osta HSL-sovelluksesta 30 päivän kausilippu.",
+      "en": "Buy a 30-day season ticket in the HSL app."
+    },
+    {
+      "fi": "Anna Oma Opintopolussa lupa jakaa opiskeluoikeustietosi HSL:lle.",
+      "en": "In My Studyinfo, give consent to share your enrolment data with HSL."
+    },
+    {
+      "fi": "Jos sovellus ei pysty vahvistamaan oikeutta, päivitä se HSL:n palvelupisteessä.",
+      "en": "If the app cannot confirm your entitlement, update it at an HSL service point."
+    }
+  ],
+  "verification": ["provider-check", "student-card"],
+  "lastVerified": "2026-11-11",
+  "region": {
+    "fi": "Pääkaupunkiseutu",
+    "en": "Helsinki region"
+  }
+}

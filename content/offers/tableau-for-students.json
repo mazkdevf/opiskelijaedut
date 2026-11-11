@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Tableau for Students",
+  "provider": "Tableau",
+  "url": "https://www.tableau.com/academic/students",
+  "category": "productivity",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Tableau Desktop datan visualisointiin ilman uusittavaa lisenssiä.",
+    "en": "Tableau Desktop for data visualisation, with no licence to renew."
+  },
+  "description": {
+    "fi": "Tableau Desktop: Public Edition on maksuton oppimiskäyttöön eikä lisenssi vanhene. Työt julkaistaan Tableau Publiciin. Kaupallinen käyttö, myös harjoittelussa tai töissä, ei ole sallittua.",
+    "en": "Tableau Desktop: Public Edition is free for learning and the licence does not expire. Work is published to Tableau Public. Commercial use, including internships and jobs, is not allowed."
+  },
+  "perks": [
+    {
+      "fi": "Tableau Desktop: Public Edition",
+      "en": "Tableau Desktop: Public Edition"
+    },
+    {
+      "fi": "Ei vanhenevaa lisenssiä eikä uusimista",
+      "en": "No expiring licence and nothing to renew"
+    }
+  ],
+  "eligibility": {
+    "fi": "Kaikki opiskelijat, myös osa-aikaiset ja oppisopimusopiskelijat. Erillistä opiskelijatodennusta ei tarvita.",
+    "en": "All learners, including part-time students and apprentices. No separate student verification is needed."
+  },
+  "steps": [
+    {
+      "fi": "Luo tili Tableau Publiciin.",
+      "en": "Create a Tableau Public account."
+    },
+    {
+      "fi": "Lataa ohjelma Get Tableau for Free -painikkeesta.",
+      "en": "Download the software from the Get Tableau for Free button."
+    }
+  ],
+  "verification": ["none"],
+  "lastVerified": "2026-11-11"
+}

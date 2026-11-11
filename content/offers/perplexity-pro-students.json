@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Perplexity Pro for Students",
+  "provider": "Perplexity",
+  "url": "https://www.perplexity.ai/students",
+  "category": "ai",
+  "type": "discount",
+  "value": {
+    "fi": "10 $/kk",
+    "en": "$10/mo"
+  },
+  "summary": {
+    "fi": "Perplexity Pro opiskelijahintaan 10 dollaria kuukaudessa.",
+    "en": "Perplexity Pro at the student price of $10 a month."
+  },
+  "description": {
+    "fi": "Perplexity Pro on lähteet näyttävä tekoälyhaku, joka sopii tiedonhakuun ja esseiden taustatyöhön. Opiskelijatilaus maksaa 10 dollaria kuukaudessa. Tarkista ehdot ja saatavuus Perplexityn sivulta ennen tilaamista.",
+    "en": "Perplexity Pro is an AI search tool that cites its sources, handy for research and essay groundwork. The student subscription costs $10 a month. Check the terms and availability on Perplexity's page before subscribing."
+  },
+  "perks": [
+    {
+      "fi": "Pääsy kaikkiin Perplexityn malleihin",
+      "en": "Access to every model in Perplexity"
+    },
+    {
+      "fi": "Vastaukset lähdeviittauksilla",
+      "en": "Answers with inline citations"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joiden opiskelijastatus voidaan vahvistaa.",
+    "en": "Students whose status can be verified."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Perplexityn opiskelijasivu ja kirjaudu sisään.",
+      "en": "Open Perplexity's student page and sign in."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi ja tee tilaus.",
+      "en": "Verify your student status and subscribe."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

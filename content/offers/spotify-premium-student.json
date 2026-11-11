@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Spotify Premium Student",
+  "provider": "Spotify",
+  "url": "https://www.spotify.com/fi/student/",
+  "category": "entertainment",
+  "type": "discount",
+  "value": {
+    "fi": "−42 %",
+    "en": "−42%"
+  },
+  "summary": {
+    "fi": "Spotify Premium 7,49 €/kk normaalin 12,99 €/kk sijaan.",
+    "en": "Spotify Premium for €7.49 a month instead of €12.99."
+  },
+  "description": {
+    "fi": "Uusille Premium-käyttäjille ensimmäinen kuukausi on maksuton. Opiskelijahinta on voimassa 12 kuukautta kerrallaan, ja sen voi uusia yhteensä enintään neljäksi vuodeksi.",
+    "en": "The first month is free for people new to Premium. The student price is valid for 12 months at a time and can be renewed for up to four years in total."
+  },
+  "perks": [
+    {
+      "fi": "Premium 7,49 €/kk (normaalisti 12,99 €/kk)",
+      "en": "Premium for €7.49 a month (normally €12.99)"
+    },
+    {
+      "fi": "Ensimmäinen kuukausi maksutta uusille tilaajille",
+      "en": "First month free for new subscribers"
+    }
+  ],
+  "eligibility": {
+    "fi": "Yli 18-vuotiaat, jotka ovat kirjoilla hyväksytyssä korkeakoulussa.",
+    "en": "People over 18 who are enrolled at an accepted higher-education institution."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Spotifyn opiskelijasivu ja kirjaudu sisään.",
+      "en": "Open Spotify's student page and sign in."
+    },
+    {
+      "fi": "Vahvista opiskelusi SheerID:n lomakkeella.",
+      "en": "Verify your studies with the SheerID form."
+    },
+    {
+      "fi": "Vahvista uudelleen 12 kuukauden välein säilyttääksesi hinnan.",
+      "en": "Re-verify every 12 months to keep the price."
+    }
+  ],
+  "verification": ["sheerid"],
+  "lastVerified": "2026-11-11"
+}

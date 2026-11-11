@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Office 365 Education",
+  "provider": "Microsoft",
+  "url": "https://www.microsoft.com/fi-fi/education/products/office",
+  "category": "productivity",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Word, Excel, PowerPoint, OneNote ja Outlook selaimessa oppilaitoksen sähköpostilla.",
+    "en": "Word, Excel, PowerPoint, OneNote and Outlook in the browser with a school email."
+  },
+  "description": {
+    "fi": "Maksuton Office 365 A1 sisältää Office-sovellusten verkkoversiot. Moni korkeakoulu tarjoaa lisäksi työpöytäsovellukset oman lisenssinsä kautta, joten tarkista myös oppilaitoksesi IT-palvelut.",
+    "en": "The free Office 365 A1 plan includes the web versions of the Office apps. Many universities also provide the desktop apps through their own licence, so check your school's IT services too."
+  },
+  "perks": [
+    {
+      "fi": "Wordin, Excelin, PowerPointin, OneNoten ja Outlookin verkkoversiot",
+      "en": "Web versions of Word, Excel, PowerPoint, OneNote and Outlook"
+    },
+    {
+      "fi": "Käytössä niin kauan kuin opiskelet",
+      "en": "Yours for as long as you study"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joiden oppilaitos täyttää Microsoftin ehdot. Kelpoisuus tarkistetaan oppilaitoksen sähköpostiosoitteella.",
+    "en": "Students whose school qualifies with Microsoft. Eligibility is checked with your school email address."
+  },
+  "steps": [
+    {
+      "fi": "Syötä oppilaitoksen sähköpostiosoite Microsoftin sivulla.",
+      "en": "Enter your school email address on Microsoft's page."
+    },
+    {
+      "fi": "Vahvistus tulee yleensä heti, ja voit kirjautua Office-sovelluksiin.",
+      "en": "Confirmation is usually instant, and you can sign in to the Office apps."
+    }
+  ],
+  "verification": ["school-email"],
+  "lastVerified": "2026-11-11"
+}

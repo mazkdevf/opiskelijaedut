@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Opiskelija-ateria",
+  "provider": "Kela",
+  "url": "https://www.kela.fi/ateriatuki",
+  "category": "food",
+  "type": "discount",
+  "value": {
+    "fi": "Lounas 3,10 €",
+    "en": "Lunch €3.10"
+  },
+  "summary": {
+    "fi": "Kelan ateriatuella lounas opiskelijaravintolassa maksaa enintään 3,10 €.",
+    "en": "With Kela's meal subsidy, lunch at a student restaurant costs at most €3.10."
+  },
+  "description": {
+    "fi": "Kela tukee korkeakouluopiskelijan ateriaa 2,80 eurolla, ja tuki vähennetään hinnasta suoraan kassalla. Tuen saa yhteen ateriaan päivässä. Erikoisannokset maksavat 4,50 eurosta 5,90 euroon.",
+    "en": "Kela subsidises a higher-education student's meal by €2.80, taken off the price at the till. You can use it for one meal a day. Special portions cost between €4.50 and €5.90."
+  },
+  "perks": [
+    {
+      "fi": "Opiskelija-ateria enintään 3,10 €",
+      "en": "A student meal for at most €3.10"
+    },
+    {
+      "fi": "Tuki vähennetään suoraan kassalla",
+      "en": "The subsidy is deducted at the till"
+    },
+    {
+      "fi": "Voimassa myös vaihto-opiskelijoille",
+      "en": "Also available to exchange students"
+    }
+  ],
+  "eligibility": {
+    "fi": "Suomalaisessa yliopistossa tai ammattikorkeakoulussa alempaa tai ylempää tutkintoa suorittavat sekä vaihto-opiskelijat. Ei koske lisensiaatin- tai tohtorintutkintoa.",
+    "en": "People studying for a bachelor's or master's level degree at a Finnish university or university of applied sciences, and exchange students. Licentiate and doctoral degrees are not covered."
+  },
+  "steps": [
+    {
+      "fi": "Mene opiskelijaravintolaan, joka on mukana ateriatuessa.",
+      "en": "Go to a student restaurant that takes part in the meal subsidy."
+    },
+    {
+      "fi": "Näytä kassalla opiskelijakortti: Frank, Kide.app, Slice, Tuudo tai fyysinen kortti.",
+      "en": "Show a student card at the till: Frank, Kide.app, Slice, Tuudo or a physical card."
+    },
+    {
+      "fi": "Jos sinulla ei ole korttia, pyydä oppilaitokseltasi Kelan ateriatukikortti.",
+      "en": "If you have no card, ask your school for Kela's meal subsidy card."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

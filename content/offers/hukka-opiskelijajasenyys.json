@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Liikuntakeskus Hukka",
+  "provider": "Hukka",
+  "url": "https://www.hukka.net/opiskelijajasenyys/",
+  "category": "wellbeing",
+  "type": "discount",
+  "region": {
+    "fi": "Oulu",
+    "en": "Oulu"
+  },
+  "value": {
+    "fi": "−10 €/kk",
+    "en": "−€10/month"
+  },
+  "summary": {
+    "fi": "Liikuntakeskuksen jäsenyys 67 €/kk normaalin 77 €/kk sijaan.",
+    "en": "Sports centre membership for €67 a month instead of €77."
+  },
+  "description": {
+    "fi": "Toistaiseksi voimassa oleva opiskelijajäsenyys maksaa 67 €/kk, ja irtisanomisaika on yksi kalenterikuukausi. Vuoden etukäteen maksaminen maksaa 737 €. Liittymismaksu on 20 €. Kun opiskelijakortti vanhenee, hinta palaa 77 euroon.",
+    "en": "The open-ended student membership costs €67 a month with one calendar month's notice. Paying a year in advance costs €737. The joining fee is €20. When your student card expires, the price returns to €77."
+  },
+  "perks": [
+    {
+      "fi": "Kuntosalit, ryhmäliikunta ja palloilulajit",
+      "en": "Gyms, group exercise and ball sports"
+    },
+    {
+      "fi": "Hukka Xpress 24h -salien käyttö",
+      "en": "Access to the Hukka Xpress 24h gyms"
+    },
+    {
+      "fi": "Maksuton kokeilupäivä ennen liittymistä",
+      "en": "A free trial day before you join"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti.",
+    "en": "Students with a valid student card."
+  },
+  "steps": [
+    {
+      "fi": "Tee jäsenyyssopimus Hukan sivulla.",
+      "en": "Sign up for membership on Hukka's site."
+    },
+    {
+      "fi": "Lähetä kuva voimassa olevasta opiskelijakortista Hukan myyntiin.",
+      "en": "Send a photo of your valid student card to Hukka's sales team."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

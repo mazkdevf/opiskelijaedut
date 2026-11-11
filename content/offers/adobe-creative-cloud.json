@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Adobe Creative Cloud Pro",
+  "provider": "Adobe",
+  "url": "https://www.adobe.com/fi/creativecloud/buy/students.html",
+  "category": "design",
+  "type": "discount",
+  "value": {
+    "fi": "−75 %",
+    "en": "−75%"
+  },
+  "summary": {
+    "fi": "Photoshop, Illustrator, Premiere ja muut 20,39 €/kk ensimmäisen vuoden.",
+    "en": "Photoshop, Illustrator, Premiere and the rest for €20.39 a month in the first year."
+  },
+  "description": {
+    "fi": "Ensimmäisen vuoden hinta on 20,39 €/kk normaalin 82,25 €/kk sijaan. Sen jälkeen opiskelijahinta on 42,17 €/kk. Tilaus on vuoden sitoumus ja uusiutuu automaattisesti, joten merkitse uusimispäivä kalenteriin.",
+    "en": "The first year costs €20.39 a month instead of the regular €82.25. After that the student price is €42.17 a month. It is a one-year commitment that renews automatically, so put the renewal date in your calendar."
+  },
+  "perks": [
+    {
+      "fi": "Koko Creative Cloud Pro -paketti",
+      "en": "The full Creative Cloud Pro bundle"
+    },
+    {
+      "fi": "20,39 €/kk ensimmäisen vuoden, sitten 42,17 €/kk",
+      "en": "€20.39 a month for the first year, then €42.17"
+    },
+    {
+      "fi": "7 päivän maksuton kokeilu",
+      "en": "A 7-day free trial"
+    }
+  ],
+  "eligibility": {
+    "fi": "Vähintään 13-vuotiaat opiskelijat. Oppilaitoksen sähköpostilla vahvistus onnistuu heti, muuten Adobe voi pyytää todisteen opiskelusta oston jälkeen.",
+    "en": "Students aged 13 or over. A school email is verified instantly; otherwise Adobe may ask for proof of enrolment after purchase."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Adoben opiskelijasivu ja valitse paketti.",
+      "en": "Open Adobe's student page and choose the plan."
+    },
+    {
+      "fi": "Syötä oppilaitoksen sähköpostiosoite kassalla.",
+      "en": "Enter your school email address at checkout."
+    }
+  ],
+  "verification": ["school-email", "document"],
+  "lastVerified": "2026-11-11"
+}

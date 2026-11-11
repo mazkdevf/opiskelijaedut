@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Microsoft 365 Personal",
+  "provider": "Microsoft",
+  "url": "https://www.microsoft.com/fi-fi/microsoft-365/college-student-pricing",
+  "category": "productivity",
+  "type": "discount",
+  "value": {
+    "fi": "−50 %",
+    "en": "−50%"
+  },
+  "summary": {
+    "fi": "Työpöytä-Office, Copilot ja 1 Tt OneDrive-tilaa puoleen hintaan.",
+    "en": "Desktop Office, Copilot and 1 TB of OneDrive at half price."
+  },
+  "description": {
+    "fi": "Jos tarvitset työpöytäsovellukset omalle koneellesi eikä oppilaitoksesi tarjoa niitä, opiskelija-alennus puolittaa Microsoft 365 Personalin kuukausihinnan. Opiskelijastatus on vahvistettava uudelleen vuosittain.",
+    "en": "If you need the desktop apps on your own computer and your school does not provide them, the student discount halves the monthly price of Microsoft 365 Personal. You need to re-verify your student status every year."
+  },
+  "perks": [
+    {
+      "fi": "Word, Excel, PowerPoint, OneNote, Outlook ja Teams",
+      "en": "Word, Excel, PowerPoint, OneNote, Outlook and Teams"
+    },
+    {
+      "fi": "Copilot-ominaisuudet työpöytäsovelluksissa",
+      "en": "Copilot features in the desktop apps"
+    },
+    {
+      "fi": "1 Tt OneDrive-pilvitallennustilaa",
+      "en": "1 TB of OneDrive cloud storage"
+    }
+  ],
+  "eligibility": {
+    "fi": "Akkreditoitujen korkeakoulujen pää- ja sivutoimiset opiskelijat. Tilaus tehdään henkilökohtaisella Microsoft-tilillä, ei oppilaitoksen tilillä.",
+    "en": "Full-time and part-time students at accredited universities and colleges. You subscribe with a personal Microsoft account, not a school account."
+  },
+  "steps": [
+    {
+      "fi": "Avaa opiskelijahinnoittelun sivu ja kirjaudu henkilökohtaisella Microsoft-tilillä.",
+      "en": "Open the student pricing page and sign in with your personal Microsoft account."
+    },
+    {
+      "fi": "Vahvista opiskelusi oppilaitoksen sähköpostilla tai päivätyllä dokumentilla.",
+      "en": "Verify your studies with a school email or a dated document."
+    }
+  ],
+  "verification": ["school-email", "document"],
+  "lastVerified": "2026-11-11"
+}

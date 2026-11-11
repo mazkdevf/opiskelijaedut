@@ -1,0 +1,23 @@
+name: Ehdota etua / Suggest an offer
+description: Kerro edusta, joka puuttuu listalta. Tell us about an offer that is missing.
+title: "Uusi etu: "
+labels: [offer]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Linkki / Link
+      description: Suora linkki tarjoajan omalle sivulle. Direct link to the provider's own page.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Mitä opiskelija saa? / What does the student get?
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Kuka edun saa ja miten se todennetaan? / Who is eligible and how is it verified?

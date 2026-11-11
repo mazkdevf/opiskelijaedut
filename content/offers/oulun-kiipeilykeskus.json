@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Oulun Kiipeilykeskus",
+  "provider": "Oulun Kiipeilykeskus",
+  "url": "https://oulunkiipeilykeskus.fi/opiskelijaedut/",
+  "category": "wellbeing",
+  "type": "discount",
+  "region": {
+    "fi": "Oulu",
+    "en": "Oulu"
+  },
+  "value": {
+    "fi": "−20 %",
+    "en": "−20%"
+  },
+  "summary": {
+    "fi": "Kiipeilyn kuukausikortti 60 € (norm. 75 €) ja muita opiskelijahintoja.",
+    "en": "A monthly climbing pass for €60 (normally €75) and other student prices."
+  },
+  "description": {
+    "fi": "Opiskelijahinnat saa vain kassalta, ja etu on henkilökohtainen. Opiskelijaperjantaisin, yleensä helmi- ja syyskuussa, boulderointi maksaa 6 € kenkineen kello 12 ja 17 välillä.",
+    "en": "Student prices are only available at the desk, and the offer is personal. On Student Fridays, usually in February and September, bouldering costs €6 including shoes between 12 and 17."
+  },
+  "perks": [
+    {
+      "fi": "Kuukausikortti 60 € (norm. 75 €)",
+      "en": "Monthly pass €60 (normally €75)"
+    },
+    {
+      "fi": "Vuosijäsenyys 504 € (norm. 630 €)",
+      "en": "Annual membership €504 (normally €630)"
+    },
+    {
+      "fi": "10 kerran kortti 89,50 € ja 5 kerran kortti 49 €",
+      "en": "10-visit pass €89.50 and 5-visit pass €49"
+    },
+    {
+      "fi": "Opiskelijaperjantai: boulderointi 6 € kenkineen",
+      "en": "Student Friday: bouldering for €6 including shoes"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti. Myös mobiilikortti käy.",
+    "en": "Students with a valid student card. A mobile card works too."
+  },
+  "steps": [
+    {
+      "fi": "Näytä opiskelijakortti kassalla osoitteessa Paakakatu 7, Oulu.",
+      "en": "Show your student card at the desk at Paakakatu 7, Oulu."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

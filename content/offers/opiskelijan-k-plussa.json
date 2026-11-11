@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Opiskelijan K-Plussa",
+  "provider": "K-ryhmä",
+  "url": "https://plussa.fi/k-plussa/opiskelijan-k-plussa",
+  "category": "everyday",
+  "type": "discount",
+  "value": {
+    "fi": "5 % takaisin",
+    "en": "5% back"
+  },
+  "summary": {
+    "fi": "5 % Plussa-rahaa ruokaostoksista K-ruokakaupoissa, kun ostat yli 75 eurolla kuukaudessa.",
+    "en": "5% back in Plussa money on groceries at K food stores when you spend over €75 a month."
+  },
+  "description": {
+    "fi": "Korkeakouluopiskelija saa 5 % ruokaostoksistaan takaisin Plussa-rahana, kun kalenterikuukauden ostokset K-ruokakaupoissa ylittävät 75 euroa. Plussa-rahan voi käyttää missä tahansa K-ryhmän kaupassa. Jäsenyys ja kortti ovat maksuttomia.",
+    "en": "University students get 5% of their grocery spending back as Plussa money once purchases at K food stores exceed €75 in a calendar month. Plussa money can be spent at any K Group store. Membership and the card are free."
+  },
+  "perks": [
+    {
+      "fi": "5 % Plussa-rahaa takaisin ruokaostoksista",
+      "en": "5% back in Plussa money on groceries"
+    },
+    {
+      "fi": "Plussa-raha käytettävissä joka kuukausi kaikissa K-ryhmän kaupoissa",
+      "en": "Plussa money can be used every month at any K Group store"
+    },
+    {
+      "fi": "Jäsenyys ja Plussa-kortti maksutta",
+      "en": "Free membership and Plussa card"
+    }
+  ],
+  "eligibility": {
+    "fi": "Korkeakouluopiskelijat. Jos olet toisen Plussa-talouden rinnakkaisjäsen, sinun on ensin erottava siitä ja perustettava oma talous.",
+    "en": "University students. If you are an additional member of someone else's Plussa household, you first need to leave it and set up your own."
+  },
+  "steps": [
+    {
+      "fi": "Liity osoitteessa plussa.fi/liity/opiskelija.",
+      "en": "Join at plussa.fi/liity/opiskelija."
+    },
+    {
+      "fi": "Tilaa Plussa-kortti liittymisen yhteydessä, jos sinulla ei vielä ole sitä.",
+      "en": "Order a Plussa card when you join if you do not have one yet."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

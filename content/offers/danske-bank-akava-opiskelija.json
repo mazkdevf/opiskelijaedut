@@ -1,0 +1,62 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Danske Bankin opiskelijaedut",
+  "provider": "Danske Bank",
+  "url": "https://danskebank.fi/sinulle/tule-asiakkaaksi/yhteistyokumppaneiden-jasenedut/akava-edut/opiskelija",
+  "category": "finance",
+  "type": "free",
+  "value": {
+    "fi": "0 €/kk",
+    "en": "€0/month"
+  },
+  "summary": {
+    "fi": "Tili, kortti ja pankkitunnukset ilman kuukausimaksua Akavan liittojen opiskelijajäsenille.",
+    "en": "An account, card and online banking with no monthly fee for student members of Akava unions."
+  },
+  "description": {
+    "fi": "Akavan jäsenliiton opiskelijajäsen saa päivittäispalvelut ilman kuukausimaksua ja opintolainan ilman avaus- ja nostopalkkioita. Opintolainan marginaali on 0 % viisi vuotta ja sen jälkeen 0,5 %. Etu ei koske muista pankeista siirrettäviä lainoja.",
+    "en": "Student members of an Akava-affiliated union get everyday banking with no monthly fee and a student loan with no opening or withdrawal fees. The loan margin is 0% for five years and 0.5% after that. Loans transferred from other banks are not covered."
+  },
+  "perks": [
+    {
+      "fi": "Danske-tili, Mastercard Debit ja pankkitunnukset ilman kuukausimaksua",
+      "en": "A Danske account, Mastercard Debit and online banking with no monthly fee"
+    },
+    {
+      "fi": "Opintolaina: marginaali 0 % viisi vuotta, ei avaus- tai nostopalkkioita",
+      "en": "Student loan: 0% margin for five years, no opening or withdrawal fees"
+    },
+    {
+      "fi": "Mastercard Gold ilman vuosimaksua",
+      "en": "Mastercard Gold with no annual fee"
+    },
+    {
+      "fi": "Osakesäästötili: viisi ensimmäistä osakekauppaa ilman välityspalkkiota",
+      "en": "Equity savings account: first five share trades with no brokerage fee"
+    },
+    {
+      "fi": "Vuokravakuustilin panttaus ilman palvelumaksua",
+      "en": "Rental deposit account pledge with no service fee"
+    }
+  ],
+  "eligibility": {
+    "fi": "Akavan jäsenliittojen opiskelijajäsenet. Tarkista omasta liitostasi, onko sillä sopimus Danske Bankin kanssa.",
+    "en": "Student members of Akava-affiliated unions. Check with your own union whether it has an agreement with Danske Bank."
+  },
+  "steps": [
+    {
+      "fi": "Tule asiakkaaksi verkossa, jos et vielä ole.",
+      "en": "Become a customer online if you are not one already."
+    },
+    {
+      "fi": "Rekisteröidy opiskelijaksi verkkopankissa: Danske Etuohjelma → Danske Opiskelija.",
+      "en": "Register as a student in online banking: Danske Etuohjelma → Danske Opiskelija."
+    },
+    {
+      "fi": "Lähetä pankille viesti, jossa kerrot liittosi ja pyydät akavalaisen opiskelijan edut.",
+      "en": "Send the bank a message naming your union and asking for the Akava student benefits."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

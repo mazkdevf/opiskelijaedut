@@ -1,0 +1,62 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Google AI Plus",
+  "provider": "Google",
+  "url": "https://one.google.com/ai-student",
+  "category": "ai",
+  "type": "free",
+  "value": {
+    "fi": "12 kk ilmaiseksi",
+    "en": "12 months free"
+  },
+  "summary": {
+    "fi": "Gemini, NotebookLM ja 400 Gt tallennustilaa vuodeksi maksutta korkeakouluopiskelijoille.",
+    "en": "Gemini, NotebookLM and 400 GB of storage free for a year for university students."
+  },
+  "description": {
+    "fi": "Google AI Plus on opiskelijalle maksuton 12 kuukautta, minkä jälkeen hinta on 4,99 €/kk. Paketti tuo kaksinkertaiset käyttökiintiöt Gemini-sovellukseen ja laajemman pääsyn Gemini Notebookiin. Tilaukseen voi liittyä 18 vuoden ikäraja.",
+    "en": "Google AI Plus is free for students for 12 months, after which it costs €4.99 per month. It doubles your usage limits in the Gemini app and expands access to Gemini Notebook. An age limit of 18 may apply."
+  },
+  "perks": [
+    {
+      "fi": "Gemini-sovellus: kaksi kertaa suuremmat käyttökiintiöt",
+      "en": "Gemini app: twice the usage limits"
+    },
+    {
+      "fi": "Gemini Notebook: jopa 200 sivun muistiinpanojen analysointi, audioyhteenvedot ja kysymystehtävät",
+      "en": "Gemini Notebook: analyse up to 200 pages of notes, with audio overviews and quizzes"
+    },
+    {
+      "fi": "400 Gt tallennustilaa Kuviin, Driveen ja Gmailiin",
+      "en": "400 GB of storage across Photos, Drive and Gmail"
+    },
+    {
+      "fi": "Gemini suoraan Gmailissa",
+      "en": "Gemini inside Gmail"
+    },
+    {
+      "fi": "Laajempi pääsy Google Flow'hun ja Flow Musiciin",
+      "en": "Expanded access to Google Flow and Flow Music"
+    }
+  ],
+  "eligibility": {
+    "fi": "Yliopisto- ja korkeakouluopiskelijat. Opiskelijastatus vahvistetaan tilauksen yhteydessä, ja tilaukseen voi liittyä 18 vuoden ikäraja.",
+    "en": "University and college students. Your student status is verified when you subscribe, and an age limit of 18 may apply."
+  },
+  "steps": [
+    {
+      "fi": "Avaa tarjoussivu henkilökohtaisella Google-tililläsi kirjautuneena.",
+      "en": "Open the offer page while signed in to your personal Google account."
+    },
+    {
+      "fi": "Valitse Google AI Plus ja vahvista opiskelijastatuksesi.",
+      "en": "Choose Google AI Plus and verify your student status."
+    },
+    {
+      "fi": "Peru tilaus ennen 12 kuukauden täyttymistä, jos et halua jatkaa maksullisena.",
+      "en": "Cancel before the 12 months are up if you do not want to continue on the paid plan."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

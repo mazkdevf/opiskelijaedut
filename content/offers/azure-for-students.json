@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Azure for Students",
+  "provider": "Microsoft",
+  "url": "https://azure.microsoft.com/en-us/free/students",
+  "category": "development",
+  "type": "free",
+  "value": {
+    "fi": "100 $ krediittiä",
+    "en": "$100 credit"
+  },
+  "summary": {
+    "fi": "100 dollaria pilvikrediittiä vuodeksi ilman luottokorttia.",
+    "en": "$100 in cloud credit for a year, with no credit card."
+  },
+  "description": {
+    "fi": "Krediitti on käytettävissä 12 kuukautta, ja sen voi uusia vuosittain niin kauan kuin opiskelet. Lisäksi saat yli 65 aina ilmaista palvelua.",
+    "en": "The credit is valid for 12 months and can be renewed every year while you are a student. You also get more than 65 always-free services."
+  },
+  "perks": [
+    {
+      "fi": "100 $ krediittiä Azure-palveluihin 12 kuukaudeksi",
+      "en": "$100 in credit for Azure services for 12 months"
+    },
+    {
+      "fi": "Ei luottokorttia rekisteröityessä",
+      "en": "No credit card needed to sign up"
+    },
+    {
+      "fi": "Uusittavissa vuosittain opintojen ajan",
+      "en": "Renewable every year while you study"
+    }
+  ],
+  "eligibility": {
+    "fi": "Päätoimiset korkeakouluopiskelijat. Rekisteröityminen tehdään oppilaitoksen sähköpostilla, yksi tili henkilöä kohden.",
+    "en": "Full-time university students. You sign up with a school email address, one account per person."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Azure for Students -sivu ja valitse Start free.",
+      "en": "Open the Azure for Students page and choose Start free."
+    },
+    {
+      "fi": "Kirjaudu Microsoft-tilillä ja vahvista oppilaitoksen sähköpostiosoite.",
+      "en": "Sign in with a Microsoft account and verify your school email address."
+    }
+  ],
+  "verification": ["school-email"],
+  "lastVerified": "2026-11-11"
+}

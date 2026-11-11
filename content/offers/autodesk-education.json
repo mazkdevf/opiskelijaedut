@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Autodesk Education",
+  "provider": "Autodesk",
+  "url": "https://www.autodesk.com/education/edu-software/overview",
+  "category": "design",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "AutoCAD, Fusion, Revit, Maya ja muut Autodeskin ohjelmat maksutta opiskelukäyttöön.",
+    "en": "AutoCAD, Fusion, Revit, Maya and other Autodesk software free for educational use."
+  },
+  "description": {
+    "fi": "Education-käyttöoikeus kattaa Autodeskin Education Community -ohjelmistot yhdelle käyttäjälle. Oikeus on voimassa vuoden ja sen voi uusia niin kauan kuin opiskelet.",
+    "en": "Education access covers the software in Autodesk's Education Community for a single user. It lasts one year and can be renewed for as long as you study."
+  },
+  "perks": [
+    {
+      "fi": "Yhden käyttäjän käyttöoikeus Autodeskin ohjelmistoihin",
+      "en": "Single-user access to Autodesk software"
+    },
+    {
+      "fi": "Voimassa vuoden kerrallaan, uusittavissa",
+      "en": "Valid for a year at a time, renewable"
+    }
+  ],
+  "eligibility": {
+    "fi": "Hyväksytyssä oppilaitoksessa kirjoilla olevat opiskelijat, jotka täyttävät Autodeskin vähimmäisikävaatimuksen. Vain opiskelukäyttöön.",
+    "en": "Students enrolled at a qualified educational institution who meet Autodesk's minimum age requirement. For educational use only."
+  },
+  "steps": [
+    {
+      "fi": "Valitse ohjelmisto Autodeskin Education-sivulta.",
+      "en": "Pick a product on Autodesk's Education page."
+    },
+    {
+      "fi": "Luo Autodesk-tili tai kirjaudu sisään ja aloita vahvistus.",
+      "en": "Create an Autodesk account or sign in, then start the verification."
+    },
+    {
+      "fi": "Lataa ohjelmisto, kun opiskelijastatuksesi on vahvistettu.",
+      "en": "Download the software once your student status is confirmed."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}
