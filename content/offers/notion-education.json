@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Notion Education",
+  "provider": "Notion",
+  "url": "https://www.notion.com/product/notion-for-education",
+  "category": "productivity",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Notionin Education-paketti maksutta korkeakoulun sähköpostiosoitteella.",
+    "en": "Notion's Education plan for free with a university email address."
+  },
+  "description": {
+    "fi": "Education-paketti poistaa ilmaisversion rajat yhden hengen työtilasta. Oikeus vahvistetaan kerran vuodessa oppilaitoksen sähköpostilla, ja Notion muistuttaa uusimisesta etukäteen.",
+    "en": "The Education plan lifts the free tier's limits for a one-person workspace. You confirm eligibility once a year with your school email, and Notion reminds you ahead of time."
+  },
+  "perks": [
+    {
+      "fi": "Rajattomasti sivuja, lohkoja ja tiedostolatauksia",
+      "en": "Unlimited pages, blocks and file uploads"
+    },
+    {
+      "fi": "30 päivän versiohistoria",
+      "en": "30-day version history"
+    },
+    {
+      "fi": "Laajemmat julkaisu- ja muokkausvaihtoehdot omalle sivulle",
+      "en": "More options for publishing and customising your site"
+    }
+  ],
+  "eligibility": {
+    "fi": "Akkreditoidun yliopiston tai korkeakoulun opiskelijat. Oppilaitoksen sähköpostin on oltava Notion-tilin pääosoite. Opiskelijakortti tai muu dokumentti ei käy.",
+    "en": "Students at an accredited college or university. The school email must be the main address on your Notion account. Student cards and other documents are not accepted."
+  },
+  "steps": [
+    {
+      "fi": "Vaihda Notion-tilisi sähköpostiksi oppilaitoksen osoite.",
+      "en": "Change the email on your Notion account to your school address."
+    },
+    {
+      "fi": "Avaa Settings → Upgrade plan.",
+      "en": "Open Settings → Upgrade plan."
+    },
+    {
+      "fi": "Valitse Get free education plan.",
+      "en": "Choose Get free education plan."
+    }
+  ],
+  "verification": ["school-email"],
+  "lastVerified": "2026-11-11"
+}

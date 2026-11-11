@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Unity Student",
+  "provider": "Unity",
+  "url": "https://unity.com/products/unity-student",
+  "category": "development",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Unity Pro -editori ja lisätyökaluja maksutta pelinkehitystä opiskeleville.",
+    "en": "The Unity Pro editor and extra tooling free for students learning game development."
+  },
+  "description": {
+    "fi": "Student-paketti antaa käyttöön saman Unity Pro -editorin kuin ammattilaisilla sekä joukon maksullisia lisäosia ja assetteja.",
+    "en": "The Student plan gives you the same Unity Pro editor professionals use, plus a set of paid add-ons and assets."
+  },
+  "perks": [
+    {
+      "fi": "Unity Pro -editorin uusin versio",
+      "en": "The latest version of the Unity Pro editor"
+    },
+    {
+      "fi": "Odin Inspector ja Validator -opiskelijalisenssi",
+      "en": "An education licence for Odin Inspector and Validator"
+    },
+    {
+      "fi": "Synty-assettipaketti ja Unity Cloud",
+      "en": "A Synty asset bundle and Unity Cloud"
+    }
+  ],
+  "eligibility": {
+    "fi": "Korkeakouluopiskelijat sekä vähintään 16-vuotiaat toisen asteen opiskelijat akkreditoidussa oppilaitoksessa.",
+    "en": "University students, and secondary-level students aged 16 or over at an accredited institution."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Unity Student -sivu ja valitse Get started.",
+      "en": "Open the Unity Student page and choose Get started."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi SheerID:n kautta.",
+      "en": "Verify your student status through SheerID."
+    }
+  ],
+  "verification": ["sheerid"],
+  "lastVerified": "2026-11-11"
+}

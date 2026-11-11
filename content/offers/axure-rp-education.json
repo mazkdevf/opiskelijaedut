@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Axure RP",
+  "provider": "Axure",
+  "url": "https://www.axure.com/edu",
+  "category": "design",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Axure RP Team -prototypointityökalu vuodeksi maksutta, uusittavissa.",
+    "en": "The Axure RP Team prototyping tool free for a year, renewable."
+  },
+  "description": {
+    "fi": "Axure RP on käyttöliittymien prototypointiin ja rautalankamalleihin tarkoitettu työkalu. Opiskelija saa Team-tilauksen vuodeksi ja voi hakea jatkoa jokaisena opiskeluvuonna.",
+    "en": "Axure RP is a tool for UI prototyping and wireframing. Students get a Team subscription for a year and can reapply each year they remain enrolled."
+  },
+  "perks": [
+    {
+      "fi": "Axure RP Team -tilaus vuodeksi",
+      "en": "An Axure RP Team subscription for a year"
+    },
+    {
+      "fi": "Uusittavissa opintojen ajan",
+      "en": "Renewable while you study"
+    }
+  ],
+  "eligibility": {
+    "fi": "Akkreditoidussa oppilaitoksessa tutkinto-ohjelmassa opiskelevat. Avoimet kurssit ja koulutuskeskukset eivät käy.",
+    "en": "People enrolled in a degree programme at an accredited school or university. Extension courses and training centres do not qualify."
+  },
+  "steps": [
+    {
+      "fi": "Lähetä hakemus Axuren Education-sivulta.",
+      "en": "Submit a request on Axure's Education page."
+    },
+    {
+      "fi": "Saat aktivointiohjeet sähköpostiin, kun hakemus on hyväksytty.",
+      "en": "You get activation instructions by email once the request is approved."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Google AI Pro",
+  "provider": "Google",
+  "url": "https://one.google.com/ai-student",
+  "category": "ai",
+  "type": "discount",
+  "value": {
+    "fi": "−74 %",
+    "en": "−74%"
+  },
+  "summary": {
+    "fi": "Googlen laajempi tekoälypaketti 5,79 €/kk normaalin 22,99 €/kk sijaan, enintään neljä vuotta.",
+    "en": "Google's larger AI plan for €5.79 a month instead of €22.99, for up to four years."
+  },
+  "description": {
+    "fi": "Pro-paketti nelinkertaistaa Gemini-sovelluksen käyttökiintiöt ja tuo mukaan Deep Researchin, kehittäjätyökalut ja 5 Tt tallennustilaa. Samalla sivulla on myös paketti, jossa on Google AI Pro ja YouTube Premium yhteensä 13,99 €/kk (normaalisti 39,98 €/kk).",
+    "en": "The Pro plan gives you four times the usage limits in the Gemini app, plus Deep Research, developer tools and 5 TB of storage. The same page also has a bundle of Google AI Pro and YouTube Premium for €13.99 a month in total (normally €39.98)."
+  },
+  "perks": [
+    {
+      "fi": "Gemini-sovellus: nelinkertaiset käyttökiintiöt ja Deep Research",
+      "en": "Gemini app: four times the usage limits, plus Deep Research"
+    },
+    {
+      "fi": "Gemini Notebook: jopa 1 500 sivun muistiinpanojen analysointi",
+      "en": "Gemini Notebook: analyse up to 1,500 pages of notes"
+    },
+    {
+      "fi": "Gemini Docsissa, Sheetsissä, Slidesissa ja Gmailissa",
+      "en": "Gemini in Docs, Sheets, Slides and Gmail"
+    },
+    {
+      "fi": "Kehittäjille: Google Antigravity, Jules, AI Studio ja Colab (200 laskentayksikköä/kk)",
+      "en": "For developers: Google Antigravity, Jules, AI Studio and Colab (200 compute units a month)"
+    },
+    {
+      "fi": "5 Tt tallennustilaa",
+      "en": "5 TB of storage"
+    },
+    {
+      "fi": "Vaihtoehto: AI Pro ja YouTube Premium yhdessä 13,99 €/kk",
+      "en": "Alternative: AI Pro and YouTube Premium together for €13.99 a month"
+    }
+  ],
+  "eligibility": {
+    "fi": "Yliopisto- ja korkeakouluopiskelijat. Opiskelijastatus vahvistetaan tilauksen yhteydessä, ja tilaukseen voi liittyä 18 vuoden ikäraja. Alennus on voimassa enintään neljä vuotta, minkä jälkeen hinta on 22,99 €/kk.",
+    "en": "University and college students. Your student status is verified when you subscribe, and an age limit of 18 may apply. The discount lasts for up to four years, after which the price is €22.99 a month."
+  },
+  "steps": [
+    {
+      "fi": "Avaa tarjoussivu henkilökohtaisella Google-tililläsi kirjautuneena.",
+      "en": "Open the offer page while signed in to your personal Google account."
+    },
+    {
+      "fi": "Valitse Google AI Pro tai paketti, jossa on YouTube Premium.",
+      "en": "Choose Google AI Pro or the bundle with YouTube Premium."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi.",
+      "en": "Verify your student status."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

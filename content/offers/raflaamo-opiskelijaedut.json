@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Raflaamon opiskelijaedut",
+  "provider": "Raflaamo",
+  "url": "https://www.raflaamo.fi/fi/opiskelijaedut",
+  "category": "food",
+  "type": "discount",
+  "value": {
+    "fi": "Ravintolakohtainen",
+    "en": "Varies by venue"
+  },
+  "summary": {
+    "fi": "S-ryhmän ravintoloiden vaihtuvat opiskelijaedut yhdellä sivulla.",
+    "en": "Changing student offers at S Group restaurants, on one page."
+  },
+  "description": {
+    "fi": "Raflaamo kokoaa S-ryhmän ravintoloiden opiskelijaedut. Edut ovat ravintolakohtaisia ja vaihtuvat: esimerkiksi osa Rosso- ja Coffee House -ravintoloista antaa 10 % alennuksen opiskelijakortilla. Osa eduista vaatii S-Etukortin tai S-mobiilin.",
+    "en": "Raflaamo collects student offers from S Group restaurants. They are specific to each restaurant and change over time: for example, some Rosso and Coffee House locations give 10% off with a student card. Some offers require an S-Etukortti card or the S-mobiili app."
+  },
+  "perks": [
+    {
+      "fi": "Ravintolakohtaisia alennuksia ruoasta ja juomista",
+      "en": "Restaurant-specific discounts on food and drinks"
+    },
+    {
+      "fi": "Vaihtuvia kuukausietuja S-mobiilin kupongeilla",
+      "en": "Changing monthly offers with S-mobiili coupons"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti. Osa eduista vaatii lisäksi S-Etukortin.",
+    "en": "Students with a valid student card. Some offers also require an S-Etukortti card."
+  },
+  "steps": [
+    {
+      "fi": "Katso ajankohtaiset edut Raflaamon sivulta.",
+      "en": "Check the current offers on Raflaamo's page."
+    },
+    {
+      "fi": "Näytä opiskelijakortti heti tilatessasi.",
+      "en": "Show your student card as soon as you order."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

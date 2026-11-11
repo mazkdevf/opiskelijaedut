@@ -1,0 +1,38 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Pancho Villa",
+  "provider": "Pancho Villa",
+  "url": "https://panchovilla.fi/kampanjat-ja-tarjoukset/",
+  "category": "food",
+  "type": "discount",
+  "value": {
+    "fi": "Ilmainen juoma",
+    "en": "Free drink"
+  },
+  "summary": {
+    "fi": "0,4 litran hanalimu kaupan päälle pääruoan yhteydessä.",
+    "en": "A free 0.4-litre soft drink with a main course."
+  },
+  "description": {
+    "fi": "Opiskelija saa 0,4 litran hanalimun, kun tilaa pääruoan ja syö ravintolassa. Etu ei koske noutoa.",
+    "en": "Students get a 0.4-litre draught soft drink when they order a main course and eat in. Takeaway is not included."
+  },
+  "perks": [
+    {
+      "fi": "0,4 l hanalimu pääruoan yhteydessä",
+      "en": "A 0.4 l draught soft drink with a main course"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti.",
+    "en": "Students with a valid student card."
+  },
+  "steps": [
+    {
+      "fi": "Näytä opiskelijakortti tarjoilijalle tilatessasi.",
+      "en": "Show your student card to the server when ordering."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11"
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Frank-opiskelijakortti",
+  "provider": "Frank",
+  "url": "https://www.frank.fi/",
+  "category": "everyday",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Maksuton digitaalinen opiskelijakortti ja satoja opiskelija-alennuksia yhdessä sovelluksessa.",
+    "en": "A free digital student card and hundreds of student discounts in one app."
+  },
+  "description": {
+    "fi": "Frank App näyttää opiskelijastatuksesi puhelimesta ja kokoaa alennukset kaupoista, palveluista ja tapahtumista. Digitaalinen kortti ja etujen käyttö ovat maksuttomia. Kansainvälinen ISIC-tunniste on 15 euron lisäpalvelu.",
+    "en": "The Frank app shows your student status on your phone and collects discounts from shops, services and events. The digital card and using the discounts are free. The international ISIC identifier is a €15 add-on."
+  },
+  "perks": [
+    {
+      "fi": "Digitaalinen opiskelijakortti, joka käy opiskelijatunnisteena koko Suomessa",
+      "en": "A digital student card accepted as student ID across Finland"
+    },
+    {
+      "fi": "Satoja alennuksia vaatteista elektroniikkaan ja matkoihin",
+      "en": "Hundreds of discounts, from clothing to electronics and travel"
+    },
+    {
+      "fi": "Kelpaa Kelan ateriatukeen opiskelijaravintoloissa",
+      "en": "Accepted for Kela's meal subsidy at student restaurants"
+    }
+  ],
+  "eligibility": {
+    "fi": "Suomessa opiskelevat: lukiolaiset, ammatillisten oppilaitosten opiskelijat, AMK- ja yliopisto-opiskelijat sekä kansanopistolaiset.",
+    "en": "People studying in Finland: upper secondary, vocational, university of applied sciences, university and folk high school students."
+  },
+  "steps": [
+    {
+      "fi": "Lataa Frank App App Storesta tai Google Playsta.",
+      "en": "Download the Frank app from the App Store or Google Play."
+    },
+    {
+      "fi": "Maksa mahdollinen opiskelijajärjestön jäsenmaksu ennen kortin tilaamista.",
+      "en": "Pay your student organisation's membership fee, if you have one, before ordering the card."
+    },
+    {
+      "fi": "Tilaa digitaalinen kortti, kun opiskelijastatuksesi näkyy sovelluksessa.",
+      "en": "Order the digital card once your student status shows up in the app."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

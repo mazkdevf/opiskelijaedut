@@ -1,0 +1,54 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "JetBrains Student Pack",
+  "provider": "JetBrains",
+  "url": "https://www.jetbrains.com/academy/student-pack/",
+  "category": "development",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "IntelliJ IDEA, PyCharm, WebStorm ja kaikki muut JetBrainsin IDE:t maksutta.",
+    "en": "IntelliJ IDEA, PyCharm, WebStorm and every other JetBrains IDE for free."
+  },
+  "description": {
+    "fi": "Opiskelijalisenssi kattaa kaikki JetBrainsin kehitysympäristöt, lisäosat ja kurssit. Lisenssi on tarkoitettu opiskelukäyttöön ja uusitaan vuosittain niin kauan kuin opiskelet.",
+    "en": "The student licence covers all JetBrains IDEs, plugins and courses. It is meant for educational use and is renewed every year for as long as you study."
+  },
+  "perks": [
+    {
+      "fi": "Kaikki JetBrainsin IDE:t yhdellä lisenssillä",
+      "en": "All JetBrains IDEs under one licence"
+    },
+    {
+      "fi": "Maksulliset lisäosat ja JetBrains Academyn kurssit",
+      "en": "Paid plugins and JetBrains Academy courses"
+    },
+    {
+      "fi": "Uusittavissa vuosittain opintojen ajan",
+      "en": "Renewable every year while you study"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, jotka voivat todentaa opiskelunsa esimerkiksi oppilaitoksen sähköpostilla tai GitHub Student Developer Packin kautta.",
+    "en": "Students who can verify their studies, for example with a school email address or through the GitHub Student Developer Pack."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Student Pack -sivu ja aloita hakemus.",
+      "en": "Open the Student Pack page and start the application."
+    },
+    {
+      "fi": "Valitse todentamistapa ja vahvista opiskelusi.",
+      "en": "Pick a verification method and confirm your studies."
+    },
+    {
+      "fi": "Kirjaudu IDE:hen JetBrains-tililläsi.",
+      "en": "Sign in to the IDE with your JetBrains account."
+    }
+  ],
+  "verification": ["school-email", "document"],
+  "lastVerified": "2026-11-11"
+}

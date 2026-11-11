@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Sketch for Education",
+  "provider": "Sketch",
+  "url": "https://www.sketch.com/education/",
+  "category": "design",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Sketchin Mac-, web- ja iPhone-sovellukset vuodeksi maksutta.",
+    "en": "Sketch's Mac, web and iPhone apps free for a year."
+  },
+  "description": {
+    "fi": "Opiskelija saa oman työtilan, jossa on yksi Editor-paikka ja 50 Gt tallennustilaa. Hakemuksen käsittelyn ajan Sketchiä voi käyttää 30 päivän kokeilulla.",
+    "en": "Students get their own Workspace with one Editor seat and 50 GB of storage. While your application is processed you can use Sketch on a 30-day trial."
+  },
+  "perks": [
+    {
+      "fi": "Mac-sovellus, web-sovellus ja iPhone-sovellus",
+      "en": "The Mac app, web app and iPhone app"
+    },
+    {
+      "fi": "Oma työtila ja 50 Gt tallennustilaa",
+      "en": "Your own Workspace with 50 GB of storage"
+    }
+  ],
+  "eligibility": {
+    "fi": "Vähintään 16-vuotiaat opiskelijat lukiossa, korkeakoulussa tai vähintään kahden kuukauden verkkokurssilla. Mac-sovellus vaatii macOS:n.",
+    "en": "Students aged 16 or over at an upper secondary school, university or an online course lasting at least two months. The Mac app requires macOS."
+  },
+  "steps": [
+    {
+      "fi": "Lataa Sketch ja luo työtila kokeilujaksolla. Luottokorttia ei tarvita.",
+      "en": "Download Sketch and create a Workspace on the trial. No credit card is needed."
+    },
+    {
+      "fi": "Täytä opiskelijahakemus Sketchin Education-sivulla.",
+      "en": "Fill in the student application on Sketch's Education page."
+    },
+    {
+      "fi": "Vastaus tulee sähköpostiin 2–3 arkipäivässä.",
+      "en": "You get a reply by email within 2–3 business days."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

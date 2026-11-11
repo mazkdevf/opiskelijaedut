@@ -1,0 +1,42 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "YNAB",
+  "provider": "YNAB",
+  "url": "https://www.ynab.com/college",
+  "category": "finance",
+  "type": "free",
+  "value": {
+    "fi": "12 kk ilmaiseksi",
+    "en": "12 months free"
+  },
+  "summary": {
+    "fi": "Budjetointisovellus YNAB vuodeksi maksutta korkeakouluopiskelijoille.",
+    "en": "The YNAB budgeting app free for a year for college students."
+  },
+  "description": {
+    "fi": "YNAB auttaa suunnittelemaan, mihin opintotuki ja palkka riittävät. Ilmaisen vuoden saa kerran, eikä sitä voi uusia, vaikka opinnot jatkuisivat.",
+    "en": "YNAB helps you plan how far your student grant and wages will stretch. The free year is available once and cannot be renewed, even if you are still studying."
+  },
+  "perks": [
+    {
+      "fi": "YNAB-sovellus vuodeksi maksutta",
+      "en": "The YNAB app free for a year"
+    }
+  ],
+  "eligibility": {
+    "fi": "Korkeakouluopiskelijat, myös jatko-opiskelijat, osa-aikaiset ja kansainväliset opiskelijat.",
+    "en": "College students, including graduate, part-time and international students."
+  },
+  "steps": [
+    {
+      "fi": "Avaa YNABin opiskelijasivu ja luo tili.",
+      "en": "Open YNAB's college page and create an account."
+    },
+    {
+      "fi": "Lähetä todiste opiskelusta: opiskelijakortti, opintosuoritusote tai lukukausimaksukuitti, jossa näkyy nimesi, oppilaitos ja päivämäärä.",
+      "en": "Send proof of enrolment: a student ID, transcript or tuition statement showing your name, school and date."
+    }
+  ],
+  "verification": ["document"],
+  "lastVerified": "2026-11-11"
+}

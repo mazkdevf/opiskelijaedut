@@ -1,0 +1,47 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Synsam",
+  "provider": "Synsam",
+  "url": "https://www.synsam.fi/opiskelijaedut",
+  "category": "wellbeing",
+  "type": "discount",
+  "value": {
+    "fi": "−50 %",
+    "en": "−50%"
+  },
+  "summary": {
+    "fi": "Kaikki silmälasit puoleen hintaan ja näöntarkastus maksutta.",
+    "en": "All glasses at half price and a free eye test."
+  },
+  "description": {
+    "fi": "Opiskelija saa 50 % alennuksen kaikista silmälaseista kehyksineen ja linsseineen. Etu koskee myös vahvuuksilla olevia aurinkolaseja. Etu on voimassa myymälöissä, ei verkkokaupassa eikä Ahvenanmaalla.",
+    "en": "Students get 50% off all glasses, frames and lenses included. Prescription sunglasses are covered too. The offer is valid in stores, not in the online shop or in Åland."
+  },
+  "perks": [
+    {
+      "fi": "50 % alennus kaikista silmälaseista (kehykset ja linssit)",
+      "en": "50% off all glasses (frames and lenses)"
+    },
+    {
+      "fi": "Koskee myös aurinkolaseja vahvuuksilla",
+      "en": "Prescription sunglasses included"
+    },
+    {
+      "fi": "Maksuton näöntarkastus",
+      "en": "A free eye test"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla on voimassa oleva opiskelijakortti. Ei koske Meta-älylaseja.",
+    "en": "Students with a valid student card. Meta smart glasses are excluded."
+  },
+  "steps": [
+    {
+      "fi": "Näytä voimassa oleva opiskelijakortti Synsam-myymälässä.",
+      "en": "Show a valid student card at a Synsam store."
+    }
+  ],
+  "verification": ["student-card"],
+  "lastVerified": "2026-11-11",
+  "expires": "2026-12-31"
+}

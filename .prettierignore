@@ -1,0 +1,6 @@
+.next
+out
+.wrangler
+node_modules
+package-lock.json
+content/offer.schema.json

@@ -1,0 +1,70 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "GitHub Student Developer Pack",
+  "provider": "GitHub",
+  "url": "https://education.github.com/pack",
+  "category": "development",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "GitHub Pro, Copilot ja kymmeniä kehittäjätyökaluja maksutta opintojen ajan.",
+    "en": "GitHub Pro, Copilot and dozens of developer tools free while you study."
+  },
+  "description": {
+    "fi": "Yksi hakemus avaa pääsyn kymmeniin kumppanietuihin: pilvikrediittejä, kehitysympäristöjä, verkkotunnuksia ja kursseja. Kannattaa hakea ensimmäisenä, koska moni muu tämän listan etu aukeaa samalla.",
+    "en": "One application unlocks dozens of partner offers: cloud credits, IDEs, domains and courses. Worth applying for first, because several other offers on this list open up through it."
+  },
+  "perks": [
+    {
+      "fi": "GitHub Pro ja Codespaces Pro-tasolla opintojen ajan",
+      "en": "GitHub Pro and Pro-level Codespaces while you are a student"
+    },
+    {
+      "fi": "GitHub Copilot Student: rajattomat koodiehdotukset",
+      "en": "GitHub Copilot Student with unlimited code completions"
+    },
+    {
+      "fi": "JetBrainsin IDE:t maksutta, uusitaan vuosittain",
+      "en": "JetBrains IDEs for free, renewed annually"
+    },
+    {
+      "fi": "Microsoft Azure: 100 $ krediittiä (18 vuotta täyttäneille)",
+      "en": "Microsoft Azure: $100 in credit (18 and over)"
+    },
+    {
+      "fi": "1Password maksutta kahdeksi vuodeksi",
+      "en": "1Password free for two years"
+    },
+    {
+      "fi": "Namecheap: .me-verkkotunnus ja SSL-varmenne vuodeksi",
+      "en": "Namecheap: a .me domain and SSL certificate for a year"
+    }
+  ],
+  "eligibility": {
+    "fi": "Vähintään 13-vuotias opiskelija, joka on kirjoilla tutkintoon johtavassa koulutuksessa. Todisteeksi käy esimerkiksi opiskelijakortti, opintosuoritusote tai läsnäolotodistus. GitHub voi vaatia oppilaitoksen sähköpostiosoitteen.",
+    "en": "Students aged 13 or over who are enrolled in a degree- or diploma-granting programme. A student card, transcript or enrolment letter works as proof. GitHub may require a school email address."
+  },
+  "steps": [
+    {
+      "fi": "Kirjaudu GitHubiin henkilökohtaisella tililläsi.",
+      "en": "Sign in to GitHub with your personal account."
+    },
+    {
+      "fi": "Lisää oppilaitoksen sähköpostiosoite tiliisi ja vahvista se.",
+      "en": "Add your school email address to the account and verify it."
+    },
+    {
+      "fi": "Avaa Settings → Education benefits ja valitse Start an application.",
+      "en": "Open Settings → Education benefits and choose Start an application."
+    },
+    {
+      "fi": "Täytä lomake ja liitä todiste opiskelusta.",
+      "en": "Fill in the form and attach proof of enrolment."
+    }
+  ],
+  "verification": ["school-email", "document"],
+  "lastVerified": "2026-11-11"
+}

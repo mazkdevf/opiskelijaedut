@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Apple Music Student",
+  "provider": "Apple",
+  "url": "https://www.apple.com/fi/apple-music/",
+  "category": "entertainment",
+  "type": "discount",
+  "value": {
+    "fi": "−42 %",
+    "en": "−42%"
+  },
+  "summary": {
+    "fi": "Apple Music 6,99 €/kk normaalin 11,99 €/kk sijaan, Apple TV mukana.",
+    "en": "Apple Music for €6.99 a month instead of €11.99, with Apple TV included."
+  },
+  "description": {
+    "fi": "Opiskelijatilaus sisältää saman kuin Oma-tilaus, ja Apple TV tulee mukana ilman lisämaksua. Opiskelijahinta on voimassa enintään neljä vuotta.",
+    "en": "The student plan includes everything in the Individual plan, and Apple TV comes with it at no extra cost. The student price applies for up to four years."
+  },
+  "perks": [
+    {
+      "fi": "Apple Music 6,99 €/kk (normaalisti 11,99 €/kk)",
+      "en": "Apple Music for €6.99 a month (normally €11.99)"
+    },
+    {
+      "fi": "Apple TV ilman lisämaksua",
+      "en": "Apple TV at no extra cost"
+    },
+    {
+      "fi": "Ensimmäinen kuukausi maksutta uusille tilaajille",
+      "en": "First month free for new subscribers"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joiden opiskelijastatus voidaan vahvistaa. Tilausta ei voi jakaa perhejaon kautta.",
+    "en": "Students whose status can be verified. The plan cannot be shared through Family Sharing."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Apple Music ja valitse opiskelijatilaus.",
+      "en": "Open Apple Music and choose the student plan."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi ohjeiden mukaan.",
+      "en": "Verify your student status as instructed."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

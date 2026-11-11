@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60,
+      "description": "Name of the offer or product."
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Company or organisation behind the offer."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct https link to the provider's own page. No affiliate links."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "ai",
+        "development",
+        "design",
+        "productivity",
+        "entertainment",
+        "food",
+        "shopping",
+        "wellbeing",
+        "transport",
+        "finance",
+        "everyday"
+      ],
+      "description": "Section the offer is listed under."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "free",
+        "discount"
+      ],
+      "description": "free if it costs students nothing, otherwise discount."
+    },
+    "region": {
+      "description": "City or area, only for local offers. Example: Oulu.",
+      "type": "object",
+      "properties": {
+        "fi": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        }
+      },
+      "required": [
+        "fi",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "fi": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24
+        }
+      },
+      "required": [
+        "fi",
+        "en"
+      ],
+      "additionalProperties": false,
+      "description": "Short badge shown in the list. Examples: Ilmainen, 12 kk ilmaiseksi, −50 %."
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "fi": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 140
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 140
+        }
+      },
+      "required": [
+        "fi",
+        "en"
+      ],
+      "additionalProperties": false,
+      "description": "One sentence shown in the list."
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "fi": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "fi",
+        "en"
+      ],
+      "additionalProperties": false,
+      "description": "A few sentences on what the offer includes and what happens afterwards."
+    },
+    "perks": {
+      "minItems": 1,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fi": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          }
+        },
+        "required": [
+          "fi",
+          "en"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Concrete things the student gets."
+    },
+    "eligibility": {
+      "type": "object",
+      "properties": {
+        "fi": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        }
+      },
+      "required": [
+        "fi",
+        "en"
+      ],
+      "additionalProperties": false,
+      "description": "Who qualifies: age, type of studies, place of residence."
+    },
+    "steps": {
+      "minItems": 1,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fi": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          }
+        },
+        "required": [
+          "fi",
+          "en"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Steps to claim the offer, in order."
+    },
+    "verification": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "school-email",
+          "sheerid",
+          "unidays",
+          "student-card",
+          "document",
+          "provider-check",
+          "none"
+        ]
+      },
+      "description": "How student status is checked."
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$",
+      "description": "Day the details were last checked on the provider's page."
+    },
+    "expires": {
+      "description": "Day the offer ends. Expired offers are hidden automatically.",
+      "type": "string",
+      "format": "date",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+    }
+  },
+  "required": [
+    "name",
+    "provider",
+    "url",
+    "category",
+    "type",
+    "value",
+    "summary",
+    "description",
+    "perks",
+    "eligibility",
+    "steps",
+    "verification",
+    "lastVerified"
+  ],
+  "additionalProperties": false,
+  "title": "Opiskelijaedut offer",
+  "description": "A single student offer shown on the site. One file per offer."
+}

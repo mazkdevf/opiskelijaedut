@@ -1,0 +1,46 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "AWS Educate",
+  "provider": "Amazon Web Services",
+  "url": "https://aws.amazon.com/education/awseducate/",
+  "category": "development",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Maksuttomat pilviharjoitukset ja kurssit ilman luottokorttia.",
+    "en": "Free cloud labs and courses, with no credit card."
+  },
+  "description": {
+    "fi": "AWS Educate tarjoaa käytännön harjoituksia ja itseopiskelukursseja pilvipalveluista. Rekisteröitymiseen riittää sähköpostiosoite, eikä opiskelijastatusta tarkisteta.",
+    "en": "AWS Educate offers hands-on labs and self-paced training in cloud skills. You only need an email address to register, and student status is not checked."
+  },
+  "perks": [
+    {
+      "fi": "Käytännön harjoitukset AWS-ympäristössä",
+      "en": "Hands-on labs in an AWS environment"
+    },
+    {
+      "fi": "Laaja kirjasto itseopiskelukursseja",
+      "en": "A large library of self-paced training"
+    },
+    {
+      "fi": "Jaettavat digitaaliset osaamismerkit",
+      "en": "Shareable digital badges"
+    }
+  ],
+  "eligibility": {
+    "fi": "Kaikki vähintään 13-vuotiaat. Työpaikkaportaali on 18 vuotta täyttäneille.",
+    "en": "Anyone aged 13 or over. The job board is for those 18 and older."
+  },
+  "steps": [
+    {
+      "fi": "Rekisteröidy AWS Educate -sivulla sähköpostiosoitteellasi.",
+      "en": "Register on the AWS Educate page with your email address."
+    }
+  ],
+  "verification": ["none"],
+  "lastVerified": "2026-11-11"
+}

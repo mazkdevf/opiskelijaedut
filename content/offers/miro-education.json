@@ -1,0 +1,50 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Miro for Students",
+  "provider": "Miro",
+  "url": "https://miro.com/education/",
+  "category": "productivity",
+  "type": "free",
+  "value": {
+    "fi": "Ilmainen",
+    "en": "Free"
+  },
+  "summary": {
+    "fi": "Miron opiskelijapaketti ryhmätöihin: rajattomasti tauluja kahdeksi vuodeksi.",
+    "en": "Miro's student plan for group work: unlimited boards for two years."
+  },
+  "description": {
+    "fi": "Opiskelijapaketissa on rajaton määrä tauluja ja tilaa kymmenelle tiimin jäsenelle, mikä riittää useimpiin ryhmätöihin ja projektikursseihin.",
+    "en": "The student plan comes with unlimited boards and room for ten team members, which is enough for most group assignments and project courses."
+  },
+  "perks": [
+    {
+      "fi": "Rajattomasti tauluja ja ulkopuolisia vierailijoita",
+      "en": "Unlimited boards and external visitors"
+    },
+    {
+      "fi": "Enintään 10 tiimin jäsentä",
+      "en": "Up to 10 team members"
+    },
+    {
+      "fi": "Miro AI: 100 krediittiä kuukaudessa tiimiä kohden",
+      "en": "Miro AI with 100 credits per month per team"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat. Paketti on voimassa kaksi vuotta, ja sitä haetaan Miron Education-sivun lomakkeella.",
+    "en": "Students. The plan lasts two years and you apply through the form on Miro's Education page."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Miron Education-sivu ja valitse Apply as student.",
+      "en": "Open Miro's Education page and choose Apply as student."
+    },
+    {
+      "fi": "Täytä hakemus ja vahvista opiskelusi.",
+      "en": "Fill in the application and verify your studies."
+    }
+  ],
+  "verification": ["provider-check"],
+  "lastVerified": "2026-11-11"
+}

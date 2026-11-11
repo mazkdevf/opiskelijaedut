@@ -1,0 +1,42 @@
+{
+  "$schema": "../offer.schema.json",
+  "name": "Evernote",
+  "provider": "Evernote",
+  "url": "https://evernote.com/students",
+  "category": "productivity",
+  "type": "discount",
+  "value": {
+    "fi": "−40 %",
+    "en": "−40%"
+  },
+  "summary": {
+    "fi": "40 % alennus Evernoten Advanced-vuositilauksesta.",
+    "en": "40% off Evernote's Advanced annual plan."
+  },
+  "description": {
+    "fi": "Alennus koskee Advanced-vuositilausta ja on tarkoitettu opiskelijoille, joilla ei vielä ole maksullista Evernote-tilausta.",
+    "en": "The discount applies to the Advanced annual plan and is meant for students who do not already have a paid Evernote subscription."
+  },
+  "perks": [
+    {
+      "fi": "40 % alennus Advanced-vuositilauksesta",
+      "en": "40% off the Advanced annual plan"
+    }
+  ],
+  "eligibility": {
+    "fi": "Opiskelijat, joilla ei ole voimassa olevaa maksullista Evernote-tilausta.",
+    "en": "Students who are not currently subscribed to a paid Evernote plan."
+  },
+  "steps": [
+    {
+      "fi": "Avaa Evernoten opiskelijasivu.",
+      "en": "Open Evernote's student page."
+    },
+    {
+      "fi": "Vahvista opiskelijastatuksesi UNiDAYS-palvelussa.",
+      "en": "Verify your student status with UNiDAYS."
+    }
+  ],
+  "verification": ["unidays"],
+  "lastVerified": "2026-11-11"
+}
